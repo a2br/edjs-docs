@@ -8,7 +8,7 @@ description: Browse EcoleDirecte's private API with the module of your dreams.
 
 It is built with TypeScript, and all the EcoleDirecte API responses are hard-typed, so everything you do is covered by your IntelliSense and the power of TypeScript.
 
-Each feature takes time to be implemented into the module. But we prefer to offer a minimum of awesomeness when it comes to serving data, we don't want to just give you the API responses.
+Each feature takes time to be implemented in the module. But we prefer to offer a minimum of awesomeness when it comes to serving data, we don't want to just give you the API responses.
 
 ```javascript
 import { Session } from "ecoledirecte.js"
