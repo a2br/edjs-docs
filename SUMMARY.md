@@ -8,8 +8,8 @@
 
 ## new Account\(\) <a id="accounts"></a>
 
-* [The Account Class](accounts/student-class.md)
-* [The Student Class](accounts/student-class-1.md)
+* [The Account Class](accounts/account-class.md)
+* [The Student Class](accounts/student-class.md)
 
 ## links
 

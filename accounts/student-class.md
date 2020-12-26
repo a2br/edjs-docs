@@ -1,44 +1,44 @@
-# The Account Class
+---
+description: Extends Account
+---
 
-`Account` is a class you should never see. What you'll use will be variants of it, such as `Student`, `Family`, `Teacher`, `Staff`... These variants allow you to use methods that are specific to some account types.
+# The Student Class
 
 ```javascript
-import { Session } from "ecoledirecte.js"
-
-const session = new Session("username", "password")
-const account = await session.login() 
-// Woosh! A wild variant of Account appeared!
-// Now, we should check which type of class 
-// has been generated, with account.type.
-switch (account.type) {
-    case 'student':
-        console.log("It's a student!")
-        break;
-    case 'teacher':
-        console.log("It's a teacher!")
-        break;
-    case 'staff':
-        console.log("Oh, it's a staff member!")
-        break;
-    case 'family'
-        console.log("No, it's a whole family!!")
-    default:
-        console.log("If you read that, ed.js is " + 
-            "outdated... It means that the type isn't " +
-            "recognized.")
-}
+account.type === 'student'
 ```
 
 ## Properties
 
-### `_raw`
+### `getHomework()`
 
-* represents the login response from EcoleDirecte, without any change.
+* read the name
+* takes as argument an array or only 1 of the following:
+  * `Date`
+  * `string` \(that represents a date\)
+  * `number` \(that represents a date\)
+* if no argument, it will automatically select all the dates with future homework
+* some `contenuDeSeance` values are not displayed on the ED UI
+* it will always return an array of assignments
+* for each assignment, `_raw` gives the original document
 
-### `token`
+```javascript
+const homework = await student.getHomework(["2021-01-14", 
+new Date("01/15/2021"), new Date("2021-01-15").getTime()];
+```
 
-* can be `set` and `get`
-* will directly change the `token` prop of the parent `Session` 
+### `getMessages()`
+
+* again, read the name
+* gets all sent and received messages
+* the content of the message needs another request, but `getContent()` is here to help
+
+```javascript
+const messages = await student.getMessages()
+const message = messages[0]
+const content = await message.getContent()
+console.log(content.text)
+```
 
 
 
