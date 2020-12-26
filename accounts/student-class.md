@@ -2,7 +2,7 @@
 description: Extends Account
 ---
 
-# The Student Class
+# La classe Student
 
 ```javascript
 account.type === 'student'

@@ -1,4 +1,4 @@
-# The Account Class
+# La classe Account
 
 `Account` est une classe que vous ne devriez jamais avoir à utiliser directement. Ce que vous utiliserez sera des variantes, comme `Student`, `Family`, `Teacher`, `Staff`... Ces variantes vont vous permettre d'utiliser des méthodes qui sont spécifiques à certains types de comptes. Ici, seules les propriétés propres à tous les types de comptes sont listées.
 
