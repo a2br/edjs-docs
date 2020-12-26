@@ -1,14 +1,14 @@
 ---
-description: Browse EcoleDirecte's private API with the module of your dreams.
+description: Naviguez l'API privée d'EcoleDirecte avec le module de vos rêves...
 ---
 
 # edjs-docs
 
-`ecoledirecte.js` is a neat node module that lets you interact with the EcoleDirecte private API in a snap. Its goal is not only to make API calls easier but also to take the mess of the ED API and simplify it before giving it to you. The raw data is still always available.
+`ecoledirecte.js` est un node\_module qui vous permet d'interagir avec EcoleDirecte en un claquement de doigts. Son objectif n'est pas seulement de vous offrir les informations, mais de les formater avant de vous les présenter. Les données d'origine au format brut, parfois plus complètes, restent toujours disponibles.
 
-It is built with TypeScript, and all the EcoleDirecte API responses are hard-typed, so everything you do is covered by your IntelliSense and the power of TypeScript.
+`ed.js` est construit avec TypeScript et toutes les réponses de l'API EcoleDirecte sont hard-typed, pour que tout ce que vous faites soit couvert par votre IntelliSense et le pouvoir de TypeScript.
 
-Each feature takes time to be implemented in the module. But we prefer to offer a minimum of awesomeness when it comes to serving data, we don't want to just give you the API responses.
+Chaque fonctionnalité prend du temps à être implémentée. Mais nous préférons proposer un minimum de décence et d'approndonfissement pour chaque nouvelle intégration.
 
 ```javascript
 import { Session } from "ecoledirecte.js"

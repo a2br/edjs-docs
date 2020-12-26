@@ -4,7 +4,7 @@
 
 ## new Session\(\) <a id="session"></a>
 
-* [The Session class](session/session-class.md)
+* [La classe Session](session/session-class.md)
 
 ## new Account\(\) <a id="accounts"></a>
 

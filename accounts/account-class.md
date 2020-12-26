@@ -1,6 +1,6 @@
 # The Account Class
 
-`Account` is a class you should never see. What you'll use will be variants of it, such as `Student`, `Family`, `Teacher`, `Staff`... These variants allow you to use methods that are specific to some account types.
+`Account` est une classe que vous ne devriez jamais avoir à utiliser directement. Ce que vous utiliserez sera des variantes, comme `Student`, `Family`, `Teacher`, `Staff`... Ces variantes vont vous permettre d'utiliser des méthodes qui sont spécifiques à certains types de comptes. Ici, seules les propriétés propres à tous les types de comptes sont listées.
 
 ```javascript
 import { Session } from "ecoledirecte.js"
