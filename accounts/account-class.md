@@ -1,4 +1,4 @@
-# The Account Class
+# The Account class
 
 `Account` is a class you should never see. What you'll use will be variants of it, such as `Student`, `Family`, `Teacher`, `Staff`... These variants allow you to use methods that are specific to some account types.
 
