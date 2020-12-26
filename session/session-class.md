@@ -14,3 +14,25 @@ The `Session` class is quite simple to use. It's actually just a stack of proper
 const session = new Session("username", "password")
 ```
 
+## Properties
+
+### `login()`
+
+* no arguments
+* returns an extension of `Account`
+
+### `credentials`
+
+* can only `get`
+* returns the credentials given during the class init
+
+### `token`
+
+* last token given by EcoleDirecte
+
+### `loginRes`
+
+* complete login response got during the `login()` call
+
+
+

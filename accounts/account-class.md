@@ -33,7 +33,7 @@ switch (account.type) {
 
 ### `_raw`
 
-* represents the login response from EcoleDirecte, without any change.
+* represents the account extracted from the raw login response from EcoleDirecte, without any change.
 
 ### `token`
 
