@@ -9,6 +9,7 @@
 ## new Account\(\) <a id="accounts"></a>
 
 * [The Account Class](accounts/the-student-class.md)
+* [The Student Class](accounts/the-student-class-1.md)
 
 ## links
 
