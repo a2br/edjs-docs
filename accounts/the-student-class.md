@@ -29,3 +29,16 @@ switch (account.type) {
 }
 ```
 
+## Properties
+
+### `_raw`
+
+* represents the login response from EcoleDirecte, without any change.
+
+### token
+
+* can be `set` and `get`
+* will directly change the `token` prop of the parent `Session` 
+
+
+
