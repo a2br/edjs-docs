@@ -40,5 +40,21 @@ const content = await message.getContent()
 console.log(content.text)
 ```
 
+### `getGrades()`
 
+* returns an array of simplified grades
+* to know more about the grades/their subject, etc... see [`getPeriods()`](student-class.md#getperiods)\`\`
+
+### `getPeriods()`
+
+* returns an array of customized periods, the original data is still in `_raw`
+
+```javascript
+const periods = await student.getPeriods()
+```
+
+### `timeline()`
+
+* returns the student's timeline
+* this is not the 'common timeline'. Post-its and global events are not listed here
 
