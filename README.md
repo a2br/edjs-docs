@@ -4,6 +4,10 @@ description: Naviguez l'API privée d'EcoleDirecte avec le module de vos rêves.
 
 # edjs-docs
 
+{% hint style="warning" %}
+Cette documentation peut être incomplète.
+{% endhint %}
+
 `ecoledirecte.js` est un node\_module qui vous permet d'interagir avec EcoleDirecte en un claquement de doigts. Son objectif n'est pas seulement de vous offrir les informations, mais de les formater avant de vous les présenter. Les données d'origine au format brut, parfois plus complètes, restent toujours disponibles.
 
 `ed.js` est construit avec TypeScript et toutes les réponses de l'API EcoleDirecte sont hard-typed, pour que tout ce que vous faites soit couvert par votre IntelliSense et le pouvoir de TypeScript.
